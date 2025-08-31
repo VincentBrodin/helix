@@ -1,0 +1,12 @@
+theme = "kanagawa"
+
+[editor]
+color-modes = true
+line-number = "relative"
+popup-border = "all"
+completion-trigger-len = 1
+completion-timeout = 50
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
