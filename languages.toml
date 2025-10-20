@@ -47,5 +47,17 @@ injection-regex = "html"
 file-types = ["html", "htm", "shtml", "xhtml", "xht", "jsp", "asp", "aspx", "jshtm", "volt", "rhtml", "cshtml"]
 block-comment-tokens = { start = "<!--", end = "-->" }
 language-servers = [ "vscode-html-language-server" ]
-auto-format = true
+auto-format = false
 indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "tsx"
+language-servers = [ "eslint", "emmet-ls", "typescript-language-server", "tailwindcss-ls", "gpt" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+language-servers = [ "eslint", "emmet-ls", "typescript-language-server", "tailwindcss-ls", "gpt" ]
+formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
+auto-format = true

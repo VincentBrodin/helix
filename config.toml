@@ -1,6 +1,7 @@
-theme = "kanagawa"
+theme = "ferra"
 
 [editor]
+true-color = true
 color-modes = true
 line-number = "relative"
 popup-border = "all"
@@ -10,3 +11,7 @@ completion-timeout = 50
 insert = "bar"
 normal = "block"
 select = "underline"
+[editor.file-picker]
+hidden = false
+[keys.normal]
+"+" = ":format"
