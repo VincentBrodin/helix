@@ -14,7 +14,6 @@ args = ["-lsp"]
 [language-server.csharp]
 command="csharp-language-server"
 
-
 [[language]]
 name = "rust"
 scope = "source.rust"
