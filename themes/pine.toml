@@ -1,0 +1,6 @@
+inherits = "rose_pine_moon"
+
+"namespace" = { fg = "gold", bg = "default", modifiers = ["bold"] }
+"type" = { fg = "foam", bg = "default", modifiers = ["bold"] }
+"keyword"= { fg = "pine", bg ="default", modifiers = ["bold"] }
+"comment" = { fg = "text", bg = "overlay" }
