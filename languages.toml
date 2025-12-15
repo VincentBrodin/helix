@@ -5,7 +5,6 @@ injection-regex = "cs"
 file-types = ["cs"]
 language-servers = ["csharp-ls"]
 
-
 [[language]]
 name = "razor"
 scope = "source.razor"
@@ -64,10 +63,16 @@ language-servers = [ "eslint", "emmet-ls", "typescript-language-server", "tailwi
 formatter = { command = "prettier", args = [ "--parser", "typescript" ] }
 auto-format = true
 
-
 [[language]]
 name = "nix"
 file-types = ["nix"]
 indent = { tab-width = 4, unit = "    " }
 language-servers = ["nil"]
 formatter = { command = "nixfmt"}
+
+[language-server.tinymist]
+command = "tinymist"
+
+[[language]]
+name = "typst"
+language-servers = ["tinymist"]

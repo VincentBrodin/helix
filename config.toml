@@ -7,6 +7,7 @@ line-number = "relative"
 popup-border = "all"
 completion-trigger-len = 1
 completion-timeout = 50
+[editor.statusline]
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
