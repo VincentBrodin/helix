@@ -45,3 +45,4 @@ hidden = false
 
 [keys.normal.space]
 x = ":buffer-close"
+X = ":buffer-close!"
